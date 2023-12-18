@@ -74,6 +74,8 @@ section {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .logo-accent-up {
@@ -195,7 +197,7 @@ section {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/Hero/people-office\ 1.jpg);
+    url(../images/Hero/people-office.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -203,7 +205,9 @@ section {
   margin-top: 0;
   padding: 188px 0;
 }
-
+.hero .container {
+  max-width: 1440px;
+}
 .hero-title {
   max-width: 496px;
   margin-left: auto;
@@ -417,11 +421,10 @@ section {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.02em;
 
   display: flex;
-  padding-top: 40px;
-  padding: 0 32px;
+  padding: 40 32px;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -434,7 +437,7 @@ section {
   left: 0;
 
   transform: translateY(100%);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-item:hover .overlay {
   transform: translateY(0);
