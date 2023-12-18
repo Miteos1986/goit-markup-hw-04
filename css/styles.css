@@ -517,8 +517,8 @@ section {
   letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
-.footer .footer-social-p:hover,
-.footer .footer-social-p:focus {
+.footer .socials-icon:hover,
+.footer .socials-icon:focus {
   background-color: #31d0aa;
 }
 
