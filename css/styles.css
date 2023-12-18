@@ -464,7 +464,8 @@ section {
   padding: 100px 0;
 }
 
-.footer-content {
+.footer-left {
+  margin-right: 120px;
 }
 
 .footer-p {
@@ -501,4 +502,21 @@ section {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+}
+.footer-right {
+  display: block;
+}
+.footer-social-p {
+  color: var(--WHITE, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02px;
+  margin-bottom: 16px;
+}
+.footer .team-socials-item {
+  gap: 16px;
+}
+.footer .container {
+  display: flex;
 }
