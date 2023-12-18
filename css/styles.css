@@ -204,9 +204,9 @@ section {
 
   margin-top: 0;
   padding: 188px 0;
+  max-width: 1440px;
 }
 .hero .container {
-  max-width: 1440px;
 }
 .hero-title {
   max-width: 496px;
@@ -517,8 +517,8 @@ section {
   letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
-.footer .socials-icon:hover,
-.footer .socials-icon:focus {
+.footer .team-socials-link:hover,
+.footer .team-socials-link:focus {
   background-color: #31d0aa;
 }
 
