@@ -67,7 +67,7 @@ section {
   font-weight: 700;
   line-height: 1.11;
   /* 111.111% */
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
 }
 
 /* header */
@@ -85,7 +85,7 @@ section {
   font-weight: 700;
   line-height: 21px;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -205,6 +205,8 @@ section {
   margin-top: 0;
   padding: 188px 0;
   max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero .container {
 }
